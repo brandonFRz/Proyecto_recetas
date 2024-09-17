@@ -1,0 +1,64 @@
+.header {
+    display: flex;
+    gap: 3rem;
+    margin: 10rem 3rem 4rem 6rem;
+    width: 90%;
+    max-width: 75rem;
+    margin: auto;
+    margin-top: 10rem;
+}
+
+.slideshow{
+    width: 40rem;
+    height: 25rem;
+}
+
+
+.hero{
+    color: #ddd6cb;
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 0.15rem;
+    text-transform: uppercase;
+    color: black;
+}
+
+.hero h1{
+    background: linear-gradient(90deg, #773530, #4d0803 );
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.cta{
+    font-size: 1.5rem;
+    display: flex;
+    gap: 1rem;
+}
+
+.cta a{
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 1rem;
+    padding: 0.5rem 1rem;
+    color: #ffffff;
+    background: linear-gradient(90deg, #882d2d, #940a00);
+    border-radius: 0.5rem;
+    font-weight: bold;
+}
+
+.cta a:hover,
+.cta a:active {
+  background: linear-gradient(90deg, #fd4715, #f9b241);
+}
+
+.section{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    font-size: 1.5rem;
+    max-width: 50rem;
+    width: 90%;
+    margin: 2rem auto;
+}

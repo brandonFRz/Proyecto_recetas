@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600;700&family=Montserrat:wght@400;700&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: 'Quicksand', sans-serif;
+}
+
+body {
+  margin: 0;
+  background: radial-gradient(#b6b6b8, #ffffff);
+}
+
+
+
+.not-found,
+.error {
+  margin-top: 5rem;
+  text-align: center;
+}
+
+.not-found h1,
+.error h1 {
+  font-size: 5rem;
+  margin-top: 10rem;
+  font-weight: 900;
+  color: #262626;
+  text-transform: uppercase;
+  background: linear-gradient(90deg, #882d2d, #940a00);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-size: cover;
+  background-position: center;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.not-found h2 {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.not-found p,
+.error p {
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: #000000;
+}
+
+.not-found a {
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 2rem;
+  padding: 1rem 2rem;
+  background: linear-gradient(90deg, #882d2d, #940a00);
+  color: white;
+  font-size: x-large;
+  border-radius: 0.5rem;
+  font-weight: bold;
+}
+
+.not-found a:hover{
+  background: linear-gradient(90deg, #fd4715, #f9b241);
+}
